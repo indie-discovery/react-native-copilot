@@ -31,7 +31,9 @@ export default StyleSheet.create({
     overflow: 'hidden',
   },
   tooltipText: {
-
+    fontSize: 16,
+    fontWeight: "bold",
+    fontFamily: "System",
   },
   tooltipContainer: {
     flex: 1,
@@ -50,7 +52,7 @@ export default StyleSheet.create({
     borderWidth: 2,
     borderRadius: STEP_NUMBER_RADIUS,
     borderColor: '#FFFFFF',
-    backgroundColor: '#27ae60',
+    backgroundColor: "rgb(63, 56, 221)",
   },
   stepNumberText: {
     fontSize: 10,
@@ -61,7 +63,10 @@ export default StyleSheet.create({
     padding: 10,
   },
   buttonText: {
-    color: '#27ae60',
+    fontSize: 16,
+    fontWeight: "bold",
+    fontFamily: "System",
+    color: "rgb(63, 56, 221)",
   },
   bottomBar: {
     marginTop: 10,
