@@ -12,7 +12,7 @@ const StepNumber = ({
   currentStepNumber,
 }: Props) => (
   <View style={styles.stepNumber}>
-    <Text style={[styles.stepNumberText]}>{currentStepNumber}</Text>
+    <Text style={[styles.stepNumberText]} allowFontScaling={false} >{currentStepNumber}</Text>
   </View>
 );
 
