@@ -29,7 +29,7 @@ const Tooltip = ({
 }: Props) => (
   <View>
     <View style={styles.tooltipContainer}>
-      <Text testID="stepDescription" style={styles.tooltipText}>{currentStep.text}</Text>
+      <Text testID="stepDescription" style={styles.tooltipText} allowFontScaling={false}>{currentStep.text}</Text>
     </View>
     <View style={[styles.bottomBar]}>
       {
